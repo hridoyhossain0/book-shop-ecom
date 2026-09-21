@@ -19,7 +19,7 @@ const BookCard = ({ book }) => {
         <>
 
             <Link
-                href={`/${id}`}
+                href={`/book/${book.id}`}
                 className="block rounded-2xl border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-lg"
             >
                 {/* Book Cover */}
